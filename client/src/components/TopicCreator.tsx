@@ -3,11 +3,14 @@
 import { useState } from "react"
 import { Button } from "./ui/button"
 import { Input } from "./ui/input"
+import { useMutation } from "@tanstack/react-query"
 
 
 const TopicCreator = () =>{
     const [input,setInput]= useState<string>(" ")
-
+    const {} = useMutation({
+        
+    })
 
     return(
         <div className="mt-12 flex flex-col gap-2">
